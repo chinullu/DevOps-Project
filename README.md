@@ -2,14 +2,14 @@
 
 1. Created web server using a configuration management tool Chef with the following content:
 
-<html>
+<!--<html>
    <head>
      <title>Hello World</title>
     </head>
     <body>
      <h1>Hello World!</h1>
     </body>
-</html>
+</html>-->
 
 2. Secureed this application and host such that only appropriate ports are publicly exposed and any http requests are redirected to https are automated using chef.
 #Block all linux ports. So that only port 22,80 and 443 are accessible. Ping is also disabled to stop DOS
