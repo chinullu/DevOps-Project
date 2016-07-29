@@ -43,7 +43,6 @@ execute "all_port_ssh" do
         action :run
 end
 
-3.Developed and applied automated tests to validate the correctness of the server configuration which is written in perl script in the file auto-test.pl
-Command to run this file: perl /path/file.pl
+3.Developed and applied automated tests to validate the correctness of the server configuration which is written in perl script in the file auto-test.pl, command to run this file: perl /path/file.pl
 
 
