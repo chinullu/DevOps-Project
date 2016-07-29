@@ -1,6 +1,6 @@
 # DevOps-Project
 
-1. Createdweb server using a configuration management tool Chef with the following content:
+1. Created web server using a configuration management tool Chef with the following content:
 <html>
    <head>
      <title>Hello World</title>
@@ -12,6 +12,7 @@
 
 2. Secureed this application and host such that only appropriate ports are publicly exposed and any http requests are redirected to https are automated using chef.
 #Block all linux ports. So that only port 22,80 and 443 are accessible. Ping is also disabled to stop DOS
+
 execute "block_all_ports" do
         command "iptables -P INPUT DROP"
         action :run
